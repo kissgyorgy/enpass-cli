@@ -1,0 +1,27 @@
+[[package]]
+category = "main"
+description = "Cryptographic modules for Python."
+name = "pycrypto"
+optional = false
+python-versions = "*"
+version = "2.6.1"
+
+[[package]]
+category = "main"
+description = "DB-API 2.0 interface for SQLCIPHER 3.x"
+name = "pysqlcipher3"
+optional = false
+python-versions = "*"
+version = "1.0.3"
+
+[metadata]
+content-hash = "5af4ab724cf7b20b36b7e1c1dc353db329beceaa746e59d794020402ffc5fa78"
+python-versions = "^3.6"
+
+[metadata.files]
+pycrypto = [
+    {file = "pycrypto-2.6.1.tar.gz", hash = "sha256:f2ce1e989b272cfcb677616763e0a2e7ec659effa67a88aa92b3a65528f60a3c"},
+]
+pysqlcipher3 = [
+    {file = "pysqlcipher3-1.0.3.tar.gz", hash = "sha256:694e5bbb6ece8a064bd55f261e54b9ffbb3af1784afdc4dce4948a0251a8a430"},
+]
