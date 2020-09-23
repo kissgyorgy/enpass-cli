@@ -17,7 +17,7 @@ PASSWORD = os.environb[b"ENPASS_PASSWORD"]
 
 
 def make_master_password(password: bytes, key_path: Path):
-    key_hex_xml = Path(KEY_FILE).read_bytes()
+    key_hex_xml = Path(key_path).read_bytes()
     # no need to use XML lib for such a simple string operation
     cut_key_value = slice(5, -6)
     key_hex = key_hex_xml[cut_key_value]
